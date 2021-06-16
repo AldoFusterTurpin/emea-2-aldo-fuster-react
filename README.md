@@ -1,3 +1,12 @@
+# How to execute the app
+#### Create image based on Dockerfile
+`docker build --no-cache -t dockerized-react-app .`
+
+#### Execute a container based on previous image
+`docker run -it -p 8080:8080 --rm dockerized-react-app`
+
+#### Open the web app
+Go to http://localhost:8080 in your browser to see it work.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
